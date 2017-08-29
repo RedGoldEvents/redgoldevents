@@ -1,0 +1,222 @@
+
+.account_hover{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background-color: #005580;
+    border: 3px solid white;
+    padding: 1%;
+    border-radius:50px;
+    margin: 10px;
+    color: white;
+    font-size: 80%;
+}
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.events_container{
+    width: 90%;
+    background-color: white;
+    min-height: 400px;
+    box-shadow:0px 0px 5px black;
+    border-radius:10px;
+    margin: 3% 5%;
+    float: left;
+}
+.events_container>.nav>ul{
+    padding: 3% 2%;
+    display: none;
+}
+
+.events_container>.nav>ul>li{
+    color: darkgoldenrod;
+     display: inline;
+     border: 1px solid darkgoldenrod;
+     padding: 2% 4%;
+     margin: 0.5% 1%;
+     border-radius:50px;
+     float: left;
+}
+.events{
+    float: left;
+    width: 100%;
+}
+.event{
+    float: left;
+    border: 1px solid grey;
+    width: 29%;
+    
+  box-shadow:0px 0px 2px black;
+    margin: 2% 2%;
+}
+
+.event>div span{
+    float: left;
+    width: 100%;
+    font-size: 80%;   
+}
+
+.event>div{
+    padding: 2%;
+}
+
+.event>div>img{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 180px;
+    min-height: 180px;
+}
+
+.event a{
+    float: right;
+    text-align: right;
+    padding: 5%;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    text-decoration: underline;
+    border:1px dotted darkgoldenrod;
+}
+
+.event>.title{
+    text-align: center;
+    color: grey;
+    font-size: 120%;
+    font-weight: bold;
+   background-color: darkgoldenrod;
+   color: white;
+   float: left;
+   width: 96%;
+  border-bottom: 2px solid darkgoldenrod;
+}
+
+.event>.detail{
+    background-color: white;
+    float: left;
+    margin: 0px 2% 2% 2%;
+}
+
+.event>.detail>span{
+    background-color: whitesmoke;
+    float: left;
+    margin: 2% 2%;
+    width: 92%;
+    padding: 2% 2%;
+/*    border-radius:5px;*/
+    font-weight: bolder;
+    color: darkgoldenrod;
+    border-left: 2px solid darkgoldenrod;
+}
+
+.events_page{
+    width: 100%;
+    float: left;
+}
+.events_page>.extra{
+    width: 98%;
+/*    background-color: lightgray;*/
+    float: left;
+    margin: 1%;
+}
+
+.events_page>.extra>div.half{
+    width: 48%;
+/*    background-color: lightgray;*/
+    float: left;
+    margin: 1%;
+}
+
+.events_page>.extra>div.half>label{
+  border-bottom: 2px solid darkgoldenrod;
+  width: 100%;
+  float: left;
+  padding: 2% 0px;
+  background-color: whitesmoke;
+}
+.events_page>.extra>div.half>div>label{
+    width: 98%;
+/*    background-color: lightgray;*/
+    float: left;
+    margin: 1%;
+}
+
+.events_page>span{
+    width: 40% ;
+    float: left;
+    padding: 4.5%;
+    margin: 2% 0%;
+    
+}
+.events_page>.title{
+    padding: 5% 2%;
+    width: 96%;
+    float: left;
+    color: darkgoldenrod;
+    font-size: 400%;
+/*    background-color: darkgoldenrod;*/
+/*    font-weight: bold;*/
+    border-bottom: 2px solid darkgoldenrod;
+    text-align: center;
+    
+    min-height: 200px;
+    padding-top: 10%;
+    
+}
+
+.events_page>span>img{
+    min-height: 100%;
+    max-height: 100%;
+    
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.events_page>span>label{
+    width: 100%;
+    color: darkgoldenrod;
+    float: left;
+    font-size: 100%;
+    padding: 2%;
+    margin: 2%;
+    background-color: whitesmoke;
+    border-left: 2px solid darkgoldenrod;
+}
+
+.events_page>span>form input[type=submit]{
+    border: none;
+    box-shadow:0px 0px 5px black;
+    padding: 2% 4%;
+    margin: 0% 2%;
+/*    border-radius:50px;*/
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.events_page>span>form input[type=submit]:hover{
+    background-color: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+    box-shadow:0px 0px 5px white;
+}
+
+
+.logo{
+    color: white;
+    font-family: sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    float: left;
+    margin: 30px 20px;
+   
+}
+.top{
+    width: 100%;
+    float: left;
+    background-color: darkgoldenrod;
+    min-height: 100px;
+}
